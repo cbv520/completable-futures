@@ -1,6 +1,6 @@
 # completable-futures
 
----
+```
 public class TxRx {
 
     private final Map<String, CompletableFuture<Object>> futures = new HashMap<>();
@@ -36,4 +36,4 @@ public class TxRx {
         }
     }
 }
----
+```
